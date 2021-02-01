@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="PL">
+  <head>
+    <title>Dziękujemy za wybór Rapid Slim!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+
+	<script>
+		function getRndInteger(min, max) {
+			return Math.floor(Math.random() * (max - min + 1) ) + min;
+		}
+		var id = getRndInteger(1000001, 9999999999);
+	</script>
+
+  </head>
+  <body>
+    <div class="d-flex flex-column justify-content-between h-100">
+      <!-- header-->
+      <header class="header">
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <div class="logo header-logo"><a href="#"><img loading="lazy" class="logo__img" src="logo.svg" alt="logo"></a></div>
+            <p class="header__text m-0">Oficjalny Polski dystrybutor <span class="current-product__name">Rapid Slim</span><span class="country"></span></p>
+          </div>
+        </div>
+      </header>
+      <!-- main-->
+      <main class="main">
+        <div class="container">
+          <div class="row">
+            <div class="order__content clearfix">
+              <div class="col-md-6 float-md-left pr-md-2">
+                <div class="order-info__content order-info__content_light_green mb-sm-3 mb-2">
+                  <div class="order-info__info-line">
+                    <div class="d-flex align-items-center"><img loading="lazy" class="order-is-issued__img" src="order_green.svg" alt="order">
+                      <p class="order-info__title m-0">Dziękujemy za wybór Rapid Slim!</p>
+                    </div>
+                  </div>
+                  <p class="order-info__text m-0">Opiekun produktu <b>Rapid Slim</b> wkrótce skontaktuje się z Tobą telefonicznie, by odpowiedzieć na wszelkie Twoje pytania i omówić szczegóły dostawy. Wszelkie płatności są dopiero przy odbiorze towaru.</p>
+
+				
+                </div>
+              </div>
+              <div class="col-md-6 float-md-right pl-md-2">
+                <div class="order-product__content mb-3">
+                  <div class="order-product__item current-product">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="order-product-spec-wrap">
+                        <p class="order-id">Twój numer zamówienia <span class="order-id__value">#<script>document.write(id);</script>-ID</span></p>
+                        <p class="current-product__text"><span class="current-product__name">Rapid Slim</span></p>
+                        <p class="current-product__description m-0"><p>Weight Loss</p></p>
+                      </div><img loading="lazy" class="current-product__img" src="ps1y0c5plt1e0na7hwh6f8mz3sh27gdauvaklf9935px5hzuipaqfmmph.png?v=23121299000011211"  width="150" alt="product">
+                    </div>
+                  </div>
+                  
+                  <div class="order-product__item product-guarantee">
+                    <div class="d-flex align-items-center"><img loading="lazy" class="label label_img guarantee-label_img" src="guarantee.png" alt="guarantee">
+                      <p class="product-guarantee_text">100% gwarancji satysfakcji</p>
+                    </div>
+                  </div>
+                  <div class="order-product__item product-confirmed">
+                    <div class="d-flex align-items-center"><img loading="lazy" class="label label_img" src="confirmed.png" alt="confirmed">
+                      <p class="product-confirmed_text">Naturalne plastry na odchudzanie przebadane klinicznie.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <div class="company-about__content">
+              <div class="logo footer-logo"><a href="#"><img loading="lazy" class="logo__img" src="logo.svg" alt="logo"></a></div>
+            </div>
+            <div class="footer-contacts__content">
+              <div class="d-flex justify-content-between flex-xl-row flex-column">
+                <p class="footer_address__text m-0">Rapid Slim Official</p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
